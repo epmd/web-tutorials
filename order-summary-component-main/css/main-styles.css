@@ -60,12 +60,33 @@ body {
     font-family: 'Red_Hat_Display', 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 16px;
-    background: url('../images/pattern-background-desktop.svg') top left no-repeat #e0e8ff;
+    background: url('../images/pattern-background-desktop.svg') top left repeat-x #e0e8ff;
     margin-top: 100px;
     text-align: center;
+    color: #696f89;
+}
+.main-copy {
+    padding: 0 18% 20px;
 }
 a, button {
     cursor: pointer;
+}
+button {
+    width: 70%;
+    background-color: #382ae1;
+    color: #FFF;
+    border: none;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 1em;
+    box-shadow: 0px 30px 20px -10px #d7d6f6;
+}
+.cancel {
+    background-color: transparent;
+    color: #747798;
+    box-shadow: none;
 }
 .content-wrapper {
     width: 450px;
@@ -73,11 +94,13 @@ a, button {
     border-radius: 20px;
     margin: 0 auto 30px;
     padding-top: 220px;
+    padding-bottom: 20px;
 }
 h1 {
     font-weight: 900;
     font-size: 1.75em;
     padding: 54px 0 24px 0;
+    color: #000;
 }
 .cost-wrapper {
     margin: 0 auto;
